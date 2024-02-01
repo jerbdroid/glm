@@ -53,9 +53,12 @@ Makefile
 
 # local build(s)
 build*
-
+!BUILD.bazel
+ 
 /.vs
 /.vscode
 /CMakeSettings.json
 .DS_Store
 *.swp
+
+MODULE.bazel.lock
