@@ -8,6 +8,7 @@ cc_library(
     ]),
     defines = [
         "GLM_FORCE_DEPTH_ZERO_TO_ONE",
+        "GLM_ENABLE_EXPERIMENTAL",
     ],
     includes = ["."],
     textual_hdrs = glob(["glm/**/*.inl"]),
